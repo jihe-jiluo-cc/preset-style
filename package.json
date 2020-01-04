@@ -1,11 +1,11 @@
 {
   "name": "preset-style",
-  "version": "2.0.1-alpha.0",
+  "version": "2.0.0-alpha.0",
   "description": "Preset web application styles.",
-  "main": "src/index.js",
+  "main": "dist/index.css",
   "repository": "git@github.com:dotkiro/preset-style.git",
   "author": "Kiro <dotkiro@gmail.com>",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "keywords": [
     "preset",
     "style",
@@ -21,6 +21,21 @@
   ],
   "scripts": {
     "prepublish": "npm run build",
-    "build": "echo building"
+    "build": "gulp",
+    "lint": "stylelint src/*.css --fix"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.4",
+    "@commitlint/config-angular": "^8.3.4",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-header": "^2.0.9",
+    "husky": "^3.1.0",
+    "stylelint-config-standard": "^19.0.0"
+  },
+  "dependencies": {
+    "stylelint": "^12.0.1"
   }
 }

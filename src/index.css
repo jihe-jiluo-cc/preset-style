@@ -1,14 +1,84 @@
 
-html, body,
-applet, object, iframe,
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code, del, dfn, em,
-img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
-table, caption,tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, main, menu, nav,
-output, ruby, section, summary, time, mark, audio, video {
+html,
+body,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
 }
@@ -16,7 +86,11 @@ output, ruby, section, summary, time, mark, audio, video {
 /**
  * Remove focused element default outline style.
  */
-input, textarea, select, button, a {
+input,
+textarea,
+select,
+button,
+a {
   outline: none;
   border: none;
   caret-color: inherit;
@@ -25,7 +99,10 @@ input, textarea, select, button, a {
 /**
  * Remove link element default color and decoration style.
  */
-a:link, a:hover, a:active, a:visited {
+a:link,
+a:hover,
+a:active,
+a:visited {
   color: inherit;
   text-decoration: none;
 }
@@ -53,20 +130,20 @@ body {
 
 table {
   border-collapse: collapse;
-  border-spacing: 0
+  border-spacing: 0;
 }
 
-li{
+li {
   list-style: none;
 }
 
-.clear-fix::after{
+.clear-fix::after {
   content: '';
   display: block;
   clear: both;
 }
 
-.overflow-ellipsis{
+.overflow-ellipsis {
   overflow: hidden;
   text-overflow: ellipsis;
   word-break: break-all;
@@ -89,7 +166,8 @@ li{
  * Support OS dark theme.
  */
 @media (prefers-color-scheme: dark) {
-  html, body {
+  html,
+  body {
     background-color: #333;
     opacity: 0.8;
   }
