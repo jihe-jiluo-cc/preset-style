@@ -17,21 +17,21 @@ yarn add preset-style
 ```
 
 ## Features
-1. Reset browser styles.
-    Reset Elements ```padding``` and ```margin```.
-    Remove inputs element ```outline``` and ```border```.
-    Remove tag ```a``` link element default color and decoration style.
-    Replace autofill input shadow styles.
-    Remove tag ```img``` border.
+### Reset browser styles:
+1. Reset Elements ```padding``` and ```margin```
+2. Remove inputs element ```outline``` and ```border```
+3. Remove tag ```a``` link element default color and decoration style
+4. Replace autofill input shadow styles
+5. Remove tag ```img``` border
 
-2. Common style snippets.
-    Clear floor ```.clear-fix```
-    Overflow ellipsis ```.overflow-ellipsis```
-    iOS X safe container ```.safe-area```
-    Mobile phone balance scroll container ```.scroller```
+### Common style snippets:
+1. Clear floor ```.clear-fix```
+2. Overflow ellipsis ```.overflow-ellipsis```
+3. iOS X safe container ```.safe-area```
+4. Mobile phone balance scroll container ```.scroller```
     
-3. Some compatibility snippets.
-    Adapter style for MAC OS dark theme
+### Some compatibility snippets:
+1. Adapter style for MAC OS dark theme
 
 ## Example Usage
 Using in ```css```, ```less``` and ```sass```:
