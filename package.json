@@ -1,6 +1,6 @@
 {
   "name": "preset-style",
-  "version": "2.0.0-alpha.0",
+  "version": "2.0.0",
   "description": "Preset web application styles.",
   "main": "dist/index.css",
   "repository": "git@github.com:dotkiro/preset-style.git",
