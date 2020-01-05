@@ -16,12 +16,29 @@ Using yarn:
 yarn add preset-style
 ```
 
+## Features
+1. Reset browser styles.
+    Reset Elements ```padding``` and ```margin```.
+    Remove inputs element ```outline``` and ```border```.
+    Remove tag ```a``` link element default color and decoration style.
+    Replace autofill input shadow styles.
+    Remove tag ```img``` border.
+
+2. Common style snippets.
+    Clear floor ```.clear-fix```
+    Overflow ellipsis ```.overflow-ellipsis```
+    iOS X safe container ```.safe-area```
+    Mobile phone balance scroll container ```.scroller```
+    
+3. Some compatibility snippets.
+    Adapter style for MAC OS dark theme
+
 ## Example Usage
-Use source code:
-``` css
-@import('preset-style/src/index.css');
-```
-Use final code:
+Using in ```css```, ```less``` and ```sass```:
 ``` css
 @import('preset-style/dist/index.css');
+```
+Using in ```js```:
+``` js
+import 'preset-style/dist/index.css'
 ```
