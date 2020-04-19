@@ -1,6 +1,6 @@
 {
   "name": "preset-style",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Preset web application styles.",
   "main": "dist/index.css",
   "author": "Kiro <dotkiro@gmail.com>",

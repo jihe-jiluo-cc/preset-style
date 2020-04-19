@@ -166,10 +166,14 @@ li {
  * Support OS dark theme.
  */
 @media (prefers-color-scheme: dark) {
-  html,
-  body {
+  html {
     background-color: #333;
-    opacity: 0.8;
-    color: #fff;
+    filter: invert(0.8);
+  }
+  body {
+    background-color: #fff;
+  }
+  img, .dark-ignore {
+    filter: invert(0.8);
   }
 }
